@@ -1,6 +1,6 @@
-from multiprocessing import context
-from urllib import request
-from django.dispatch import receiver
+#from multiprocessing import context
+#from urllib import request
+#from django.dispatch import receiver
 from django.shortcuts import render, redirect
 from .forms import PostForm,ProfileForm, RelationshipForm
 from .models import Post, Comment, Like, Profile, Relationship
